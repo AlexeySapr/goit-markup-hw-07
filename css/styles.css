@@ -65,12 +65,6 @@ input {
 	padding-bottom: 94px;
 }
 
-.container {
-	margin: 0 auto;
-	width: 1200px;
-	padding: 0px 15px;
-}
-
 /* *** Хэдер *** */
 
 .page-header {
@@ -185,10 +179,13 @@ input {
 
 /* *** Главная секция *** */
 
-.main-section {
-	padding-top: 200px;
-	padding-bottom: 200px;
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	padding: 0px 15px;
+}
 
+.main-section {
 	text-align: center;
 
 	background-color: var(--secondary-background);
@@ -199,7 +196,13 @@ input {
 	background-size: contain;
 }
 
-.main-title {
+.main-section__container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 200px 15px;
+}
+
+.main-section__title {
 	width: 696px;
 
 	margin-left: auto;
@@ -214,7 +217,7 @@ input {
 	color: var(--third--text-color);
 }
 
-.main-button,
+.main-section__button,
 .modal-submit-button,
 .footer-input-button {
 	font-family: inherit;
