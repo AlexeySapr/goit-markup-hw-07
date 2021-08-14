@@ -852,7 +852,11 @@ body {
   margin-bottom: 0px;
 }
 
-.projects__link {
+.project__img {
+  display: block;
+}
+
+.project__link {
   display: block;
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -860,21 +864,17 @@ body {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects__link:hover, .projects__link:focus {
+.project__link:hover, .project__link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.projects__img {
-  display: block;
-}
-
-.projects__thumb {
+.project__thumb {
   position: relative;
   overflow: hidden;
 }
 
-.projects__overlay {
+.project__overlay {
   position: absolute;
   content: '';
   width: 100%;
@@ -892,37 +892,37 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project__link:hover .projects__overlay,
-.project__link:focus .projects__overlay {
+.project__link:hover .project__overlay,
+.project__link:focus .project__overlay {
   -webkit-transform: translateY(0);
           transform: translateY(0);
   opacity: 1;
 }
 
-.projects__text {
+.project__text {
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
-  color: var(--third-text-color);
+  color: #ffffff;
 }
 
-.projects__content {
-  background-color: var(--third-text-color);
+.project__content {
+  background-color: #ffffff;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   padding: 20px 24px;
 }
 
-.projects__title {
+.project__title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--secondary-text-color);
+  color: #212121;
   margin-bottom: 4px;
 }
 
-.projects__description {
+.project__description {
   font-size: 16px;
 }
 /*# sourceMappingURL=main.css.map */
