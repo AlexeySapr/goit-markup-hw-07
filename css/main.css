@@ -695,99 +695,6 @@ body {
   fill: currentColor;
 }
 
-.page-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #2f303a;
-}
-
-.page-footer__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
-.page-footer__address {
-  margin-right: 70px;
-}
-
-.page-footer__social {
-  margin-right: 93px;
-}
-
-.page-footer__logo {
-  display: inline-block;
-  margin-bottom: 20px;
-  color: #ffffff;
-}
-
-/* адрес */
-.address__item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.address__text {
-  line-height: 1.71;
-  color: #ffffff;
-}
-
-.address__link {
-  line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address__link:hover, .address__link:focus {
-  color: #2196f3;
-}
-
-/* присоединяйтесь */
-.join__title {
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-
-.join__link {
-  color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.1);
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* подпись на рассылку */
-.subscribe__title {
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-
-.subscribe__input {
-  width: 358px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: #2f303a;
-  border-radius: 4px;
-  padding: 15px 16px;
-  margin-right: 12px;
-  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.subscribe__icon {
-  fill: #ffffff;
-  vertical-align: middle;
-  margin-left: 3px;
-}
-
 .filter {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -924,5 +831,98 @@ body {
 
 .project__description {
   font-size: 16px;
+}
+
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+
+.page-footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.page-footer__address {
+  margin-right: 70px;
+}
+
+.page-footer__social {
+  margin-right: 93px;
+}
+
+.page-footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* адрес */
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__text {
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+.address__link {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address__link:hover, .address__link:focus {
+  color: #2196f3;
+}
+
+/* присоединяйтесь */
+.join__title {
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.join__link {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* подпись на рассылку */
+.subscribe__title {
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.subscribe__input {
+  width: 358px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #2f303a;
+  border-radius: 4px;
+  padding: 15px 16px;
+  margin-right: 12px;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe__icon {
+  fill: #ffffff;
+  vertical-align: middle;
+  margin-left: 3px;
 }
 /*# sourceMappingURL=main.css.map */
