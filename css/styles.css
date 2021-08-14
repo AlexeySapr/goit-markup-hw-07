@@ -127,10 +127,6 @@ body {
   padding: 24px 15px 25px;
 }
 
-.page-header__logo {
-  margin-right: 93px;
-}
-
 .main-navigation {
   display: flex;
   align-items: center;
@@ -142,6 +138,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--secondary-text-color);
+}
+
+.page-header__logo {
+  margin-right: 93px;
 }
 
 .logo__label {
